@@ -1,0 +1,66 @@
+
+
+.card { 
+    border-radius: 4px;
+    margin:30px;
+    align-items: center;
+    font-size: large;
+    width:30%;
+    box-shadow: #bdc3c7;
+    height: 300px;
+    
+  }
+.tophead{
+  display: flexbox;
+  background:linear-gradient(#325cbe,#df5fac);
+  width: 100%;
+  height: 60%;
+}
+.middlebody{
+  display: flexbox;
+  background:linear-gradient(#cccfd5,#ead6e2);
+  width: 100%;
+  height: 180%;
+}
+
+.registerButton {
+
+    width:100%;
+    align-self: center;
+    border-radius: 1rem;
+
+}
+.registerButton:hover{
+    background-color: #000000;
+    color: white;
+}
+.left {
+    flex-shrink: 0;
+    flex-basis: 70%;
+  }
+  
+.right {
+    flex: 1;
+  }
+
+.button{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+ } 
+
+ .button:hover{
+    background-color: darkblue;
+ }
+ .App-header {
+   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(245, 240, 240);
+  }
